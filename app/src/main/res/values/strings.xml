@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="top_text">Answer these questions!</string>
+    <string name="q1">Where was Leonardo Da Vinci born?</string>
+    <string name="q2">Which of the following can be found inside an atom?</string>
+    <string name="q2_1">Protons</string>
+    <string name="q2_2">Electrons</string>
+    <string name="q2_3">Ketchup</string>
+    <string name="q2_4">Neutrons</string>
+    <string name="q3">Who plays Captain Craigan in Law and Order?</string>
+    <string name="q3_1">Dan Floriek</string>
+    <string name="q3_2">Tom Cruise</string>
+    <string name="q3_3">John Travolta</string>
+    <string name="q3_4">Julia Robers</string>
+    <string name="q4">How many blah blah are there in blah?</string>
+    <string name="summary_title">Summary Title</string>
+    <string name="submit_button_text">Submit your answers</string>
+</resources>
