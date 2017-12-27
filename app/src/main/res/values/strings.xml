@@ -13,6 +13,11 @@
     <string name="q3_3">John Travolta</string>
     <string name="q3_4">Julia Robers</string>
     <string name="q4">How many blah blah are there in blah?</string>
+    <string name="q5">What city is this?</string>
+    <string name="q5_1">Upminster</string>
+    <string name="q5_2">Gubbio</string>
+    <string name="q5_3">York</string>
+    <string name="q5_4">Hong Kong</string>
     <string name="summary_title">Summary Title</string>
     <string name="submit_button_text">Submit your answers</string>
 </resources>

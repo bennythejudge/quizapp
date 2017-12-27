@@ -30,10 +30,11 @@
             android:inputType="textMultiLine" />
 
         <TextView
-            android:layout_marginBottom="16dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/q2"
-            style="@style/QuestionHeaderText" />
+            style="@style/QuestionHeaderText"
+            android:layout_height="57dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/q2" />
 
         <CheckBox
             android:id="@+id/a2_1"
@@ -143,6 +144,43 @@
                 android:onClick="increment"
                 android:text="+" />
         </LinearLayout>
+
+        <!-- question nr. 6 -->
+        <TextView
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="What city is this?"
+            style="@style/QuestionHeaderText" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img02" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/a5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q5_1" />
+            <RadioButton
+                android:id="@+id/a5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q5_2" />
+            <RadioButton
+                android:id="@+id/a5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q5_3" />
+            <RadioButton
+                android:id="@+id/a5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q5_4" />
+        </RadioGroup>
 
         <Button
             android:id="@+id/submit_button_id"

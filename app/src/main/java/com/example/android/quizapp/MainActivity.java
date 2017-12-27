@@ -93,8 +93,33 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // question nr.4
-        Toast.makeText(this, "Your score is " + score,
-        Toast.LENGTH_SHORT).show();
+        if (quantity == 8) {
+            score = score + 1;
+        }
+
+        // question nr. 5
+        RadioButton a5_1 = (RadioButton) findViewById(R.id.a5_1);
+        RadioButton a5_2 = (RadioButton) findViewById(R.id.a5_2);
+        RadioButton a5_3 = (RadioButton) findViewById(R.id.a5_3);
+        RadioButton a5_4 = (RadioButton) findViewById(R.id.a5_4);
+
+        Log.d("main", "a5_1: " + a5_1.isChecked());
+        Log.d("main", "a5_2: " + a5_2.isChecked());
+        Log.d("main", "a5_3: " + a5_3.isChecked());
+        Log.d("main", "a5_4: " + a5_4.isChecked());
+
+        if (a5_1.isChecked()) {
+            score = score + 1;
+        }
+
+        // print results
+        if (score == 5) {
+            Toast.makeText(this, "All answers are correct! Outstanding!",
+                    Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, "Your score is " + score,
+                    Toast.LENGTH_SHORT).show();
+        }
     }
 
     public void increment(View view) {
